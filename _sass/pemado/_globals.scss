@@ -1,0 +1,64 @@
+// HEAD
+.site-title {
+  font-size: $type-size-2;
+}
+
+// Overlay
+.page__hero--overlay {
+  height: 350px;
+}
+@media (max-width: $small) {
+  .page__hero--overlay {
+    height: 250px;
+  }
+}
+
+.site-logo img {
+  max-height: 2.75rem;
+}
+
+.our-highlights {
+  a {
+    font-size: $type-size-6;
+    margin-top: 10px;
+  }
+}
+
+// Page text content
+.page__content {
+  p,
+  li,
+  dl {
+    font-size: $type-size-6;
+  }
+}
+
+// Pagination
+.pagination {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 15px;
+}
+
+.pagination--pager {
+  position: center;
+  font-size: 0.8rem;
+  padding: 6px 12px;
+  height: auto;
+  min-width: 150px;
+  max-width: 200px;
+}
+.pagination--title {
+  font-size: 0.6rem;
+  margin: 0px 0px 0px 0px
+}
+
+.hide-on-small-devices {
+  display: inherit
+}
+@media (max-width: $small) {
+  .hide-on-small-devices {
+    display: none;
+  }
+}
