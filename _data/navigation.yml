@@ -1,10 +1,10 @@
 main:
-  - title: "O Nas"
+  - title: "O Nás"
     url: /
   - title: "Produkty"
     url: /products/
   - title: "Kontakt"
     url: /contact/
   - title: "E-Shop"
-    url: https://eshop.pemado.com
+    url: "https://eshop.pemado.com"
     target: _blank

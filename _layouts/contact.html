@@ -1,0 +1,78 @@
+---
+layout: archive
+---
+
+<div class="contact-container">
+    <h1>{{ page.title }}</h1>
+
+    <div class="location-row">
+        <div class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2479.4423843679333!2d16.46502937626352!3d50.16134370813841!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470de27b50f44969%3A0x8c8b48bfd94b0463!2zU3TFmcOtYnJuw70gdnJjaCAxODgsIDUxNyA2MSBSb2t5dG5pY2UgdiBPcmxpY2vDvWNoIGhvcsOhY2g!5e1!3m2!1sen!2scz!4v1739778159411!5m2!1sen!2scz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="location-info">
+                <h2>Provozovna</h2>
+                <p><strong>Adresa:</strong> Stříbrný vrch 188, 517 61 Rokytnice v Orlických horách</p>
+                <p><strong>Telefon:</strong> +420 725 866 500</p>
+                <p><strong>Email:</strong> <a href="mailto:martina@pemado.com">martina@pemado.com</a></p>
+            </div>
+        </div>
+
+        <div class="location">
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.3959498998424!2d16.46265467625914!3d50.08507831360442!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470de4a0face59d5%3A0x68872165f25c6a1f!2zTsOhZHJhxb5uw60gMTM4OSwgNTY0IDAxIMW9YW1iZXJr!5e1!3m2!1sen!2scz!4v1739778209456!5m2!1sen!2scz" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <div class="location-info">
+                <h2>Prodejna</h2>
+                <p><strong>Adresa:</strong> Nádražní 1389, 564 01 Žamberk</p>
+                <p><strong>Telefon:</strong> +420 725 866 500</p>
+                <p><strong>Email:</strong> <a href="mailto:martina@pemado.com">martina@pemado.com</a></p>
+                <p><strong>Socialni media:</strong> <a href="https://www.facebook.com/people/Pemado-firemn%C3%AD-prodejna/100063592985862/">Facebook</a></p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+.contact-container {
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.location-row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.location {
+    display: flex;
+    align-items: center;
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    gap: 20px;
+    text-align: left;
+}
+
+.location iframe {
+    max-width: 250px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.location-info {
+    flex: 1;
+}
+
+@media (max-width: 600px) {
+    .location {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .location iframe {
+        max-width: 100%;
+    }
+}
+</style>

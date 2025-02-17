@@ -68,4 +68,5 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      header:
+        overlay_image: /assets/images/main-picture.jpg

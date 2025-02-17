@@ -2,16 +2,12 @@
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
 #layout: splash
-layout: home
-#author_profile: true
+layout: archive
 ---
 
-<img src="{{ "/assets/images/main-picture.jpg" | relative_url }}" class="homepage-banner" alt="PEMADO Svicky">
-
-# Handmade candles from the heart
-
-PEMADO stands at the forefront of handmade candle production in Rokytnice v Orlickych Horach (CZ).
-We believe in creating products that illuminate your space and elevate your mood.
-Our artisans pour their passion and dedication into every candle, ensuring that each piece is unique and crafted with precision.
-With a commitment to quality and sustainability, we use only the finest materials.
-Explore our collection and let the warm glow of PEMADO candles transform your environment into a haven of tranquility.
+## Ručně vyráběné svíčky ze srdce
+PEMADO stojí v čele ruční výroby svíček v České Republice.
+Věříme ve vytváření produktů, které osvětlí váš prostor a pozvednou vaši náladu.
+Naši řemeslníci vkládají svou vášeň a oddanost do každé svíčky a zajišťují, že každý kus je jedinečný a precizně vyrobený.
+S důrazem na kvalitu a udržitelnost používáme pouze ty nejlepší materiály.
+Prozkoumejte naši [kolekci](/products) a nechte teplou záři svíček PEMADO proměnit vaše prostředí v útočiště klidu.

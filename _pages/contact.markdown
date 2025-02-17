@@ -1,9 +1,5 @@
 ---
-layout: single
+layout: contact
 title: Kontakt
 permalink: /contact/
 ---
-
-# Kontakt
-
-Kontakt
