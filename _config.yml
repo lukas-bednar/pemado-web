@@ -60,8 +60,6 @@ include:
 
 masthead_title: " "
 logo: "/assets/images/logo.png"
-header:
-  teaser: /assets/images/assets/images/main-picture.jpg
 
 defaults:
   # _pages

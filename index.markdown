@@ -6,7 +6,7 @@ layout: home
 #author_profile: true
 ---
 
-<img src="/assets/images/main-picture.jpg" class="homepage-banner" alt="PEMADO Svicky">
+<img src="{{ "/assets/images/main-picture.jpg" | relative_url }}" class="homepage-banner" alt="PEMADO Svicky">
 
 # Handmade candles from the heart
 
