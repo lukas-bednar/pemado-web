@@ -1,0 +1,10 @@
+main:
+  - title: "O Nas"
+    url: /
+  - title: "Produkty"
+    url: /products/
+  - title: "Kontakt"
+    url: /contact/
+  - title: "E-Shop"
+    url: https://eshop.pemado.com
+    target: _blank

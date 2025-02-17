@@ -1,0 +1,20 @@
+- name: Rustikalni Svicky
+  image: /assets/images/rustic.jpg
+  description: A handmade rustic candle perfect for a cozy atmosphere.
+
+- name: Rucne malonave Svicky
+  image: /assets/images/malovane.jpg
+  description: Infused with natural essential oils for a relaxing experience.
+
+- name: Venkovni Svicky
+  image: /assets/images/outdoor.jpg
+  description: Large, wind-resistant candle ideal for gardens and patios.
+
+- name: Podpalovace
+  image: /assets/images/podpalovace.jpg
+  description: A decorative candle with a festive scent for special occasions.
+
+- name: Pochodne
+  image: /assets/images/pochodne.jpg
+  description: A decorative candle with a festive scent for special occasions.
+
