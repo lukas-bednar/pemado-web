@@ -1,0 +1,50 @@
+// Contacts
+.contact-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+.contact-details {
+  flex: 1;
+  min-width: 250px; /* Prevents it from shrinking too much */
+}
+
+.contact-map {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-map iframe{
+    width: 100%;
+    height: 300px;
+    border: 0;
+}
+
+.contact-representatives-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.contact-representative {
+  flex: 1;
+  min-width: 250px;
+  max-width: 400px;
+  text-align: center;
+  //background: #f9f9f9;
+  padding: 20px;
+  border-radius: $border-radius;
+  //box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.contact-representative img {
+  width: 100%;
+  height: auto;
+  border-radius: 50%;
+  max-width: 120px;
+  margin-bottom: 10px;
+}

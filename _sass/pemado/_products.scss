@@ -1,0 +1,55 @@
+// remove a underline from links in main products page
+.archive__item a {
+  text-decoration: none ;
+}
+.archive__item-excerpt p {
+  font-size: $type-size-5;
+}
+
+.product-fig-left {
+  margin: 0;
+  padding: 0 1em 0 0;  // top right bottom left
+  float: left;
+  max-width: 350px;
+}
+@media(max-width: $small){
+  .product-fig-left {
+    max-width: 100%;
+  }
+}
+
+.certificate-img-right {
+  margin: 0;
+  padding: 0 0 0 1em;  // top right bottom left
+  float: right;
+  max-width: 250px;
+}
+@media(max-width: $small){
+  .certificate-img-right {
+    max-width: 150px;
+  }
+}
+
+.product-fig-right {
+  margin: 0;
+  padding: 0 0 0 1em;  // top right bottom left
+  float: right;
+  max-width: 350px;
+}
+@media(max-width: $small){
+  .product-fig-right {
+    max-width: 100%;
+  }
+}
+.product-fig-center {
+  margin: 1em auto;  // Centers the image
+  padding: 0;
+  display: block;  // Ensures the image is a block element
+  max-width: 400px;
+}
+
+@media (max-width: $small) {
+  .product-fig-center {
+    max-width: 100%;
+  }
+}

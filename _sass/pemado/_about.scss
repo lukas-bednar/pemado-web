@@ -1,0 +1,11 @@
+.about-img-right {
+  margin-bottom: 0.5em;
+  float: right;
+  margin-left: 2em;
+  max-width: 400px;
+}
+@media (max-width: $small) {
+  .about-img-right {
+    display: none;
+  }
+}

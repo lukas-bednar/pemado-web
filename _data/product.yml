@@ -1,0 +1,56 @@
+rustic:
+  title: RUSTIKÁLNÍ SVÍČKY
+  excerpt: Osvětlete svůj prostor elegancí …
+  image:
+    main:
+      path: /assets/images/rustic.jpg
+      caption: "Svíčky v barvě podzimu"
+    outdoor:
+      path: /assets/images/outdoor.jpg
+      caption: "Venkovní svíčka"
+    outdoor-duo:
+      path: /assets/images/outdoor2.jpg
+      caption: "Venkovní svíčky"
+    painted:
+      path: /assets/images/painted-s.jpg
+      caption: "Malované svíčky - horoskop"
+    painted-figures:
+      path: /assets/images/malovane-figurky.jpg
+      caption: "Malováne svíčky - milenci"
+    painted-mrmrs:
+      path: /assets/images/malovane-mr-and-mrs.jpg
+      caption: "Malované svíčky - Pan & Paní"
+    rustic-60:
+      path: /assets/images/rustic-candles-diameter-60.jpg
+      caption: "Rustikální svíčky, průměr 60mm"
+    rustic-mix2:
+      path: /assets/images/rustic-candles-mix-2.jpg
+      caption: "Barevné trio"
+    rustic-mix:
+      path: /assets/images/rustic-candles-mix.jpg
+      caption: "Čas jenom pro sebe"
+  sections:
+    - name: MALOVANÉ SVÍČKY
+      header: "#dekorativn%C3%AD-sv%C3%AD%C4%8Dky-s-ru%C4%8Dn%C3%AD-malbou"
+    - name: VENKOVNÍ SVÍČKY
+      header: "#venkovn%C3%AD-sv%C3%AD%C4%8Dky"
+firestarter:
+  title: PODPALOVAČE
+  excerpt: Oheň snadno a rychle ...
+  image:
+    main:
+      path: /assets/images/firestarter.jpg
+      caption: "Taška podpalovačů, 200ks"
+    onfire:
+      path: /assets/images/firestarter-on-fire.jpg
+      caption: "Podpalovače v akci"
+    box:
+      path: /assets/images/krabicka-40ks.jpg
+      caption: "Krabička podpalovačů, 40ks"
+flambeau:
+  title: POCHODNĚ
+  excerpt: Navodí nezapomenutelnou atmosféru ...
+  image:
+    main:
+      path: /assets/images/flambeau.jpg
+      caption: "Ruční pochodně"

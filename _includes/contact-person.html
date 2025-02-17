@@ -1,0 +1,26 @@
+{% comment %}
+* name - a name of person
+* image - link to an image
+* title - name of possition
+* phone - a phone string
+* email - an email string
+* facebook - a link to facebook
+{% endcomment %}
+  <div class="contact-representative">
+    {% if include.image %}
+      <img src="{{ include.image | relative_url }}" alt="{{ include.name }}">
+    {% endif %}
+    <h3>{{ include.name }}</h3>
+    {% if include.title %}
+      <p>{{ include.title }}</p>
+    {% endif %}
+    {% if include.phone %}
+      {{ include.phone | render_phone_link }} <br>
+    {% endif %}
+    {% if include.email %}
+      {{ include.email | render_email_link }} <br>
+    {% endif %}
+    {% if include.facebook %}
+      {{ include.facebook | render_facebook_link: "Facebook" }} <br>
+    {% endif %}
+  </div>

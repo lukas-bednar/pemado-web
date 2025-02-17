@@ -1,0 +1,14 @@
+main:
+  - title: "O NÁS"
+    url: /
+  - title: "PRODUKTY"
+    url: /products/
+  - title: "GALERIE"
+    url: /gallery/
+#  - title: "AKTUALITY"
+#    url: /posts/
+  - title: "KONTAKT"
+    url: /contact/
+#  - title: "E-SHOP"
+#    url: "https://eshop.pemado.com"
+#    target: _blank
