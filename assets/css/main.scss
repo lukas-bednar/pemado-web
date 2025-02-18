@@ -15,6 +15,13 @@ $link-color: green;
 //$masthead-link-color-hover: green;
 //$navicon-link-color-hover: green;
 
+//$right-sidebar-width-narrow: 100px !default;
+$right-sidebar-width: 150px;
+//$right-sidebar-width-wide: 300px !default;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+.archive__item a {
+    text-decoration: none ;
+}
