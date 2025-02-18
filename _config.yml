@@ -49,9 +49,12 @@ plugins:
 include:
   - _pages
   - _products
+  - _posts
 
 collections:
   products:
+    output: true
+  posts:
     output: true
 #
 # exclude:
@@ -70,6 +73,14 @@ collections:
 logo: "/assets/images/logo2.png"
 
 defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      header:
+        overlay_image: /assets/images/main-picture.jpg
   # _pages
   - scope:
       path: ""

@@ -3,6 +3,8 @@ main:
     url: /
   - title: "Produkty"
     url: /products/
+  - title: "Aktuality"
+    url: /posts/
   - title: "Kontakt"
     url: /contact/
   - title: "E-Shop"
