@@ -3,6 +3,7 @@ title: Podpalovače
 excerpt: Ručně vyrobený podpalovač z dřevité vlny.
 header:
   teaser: /assets/images/podpalovace.jpg
+  overlay_image: /assets/images/podpalovace.jpg
 ---
 
 Chápeme, jak náročné může být rozdělat oheň, zvláště v obtížných podmínkách. 
