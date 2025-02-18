@@ -45,6 +45,11 @@ plugins:
 # their entries' file path in the `include:` list.
 include:
   - _pages
+  - _products
+
+collections:
+  products:
+    output: true
 #
 # exclude:
 #   - .sass-cache/
@@ -58,14 +63,22 @@ include:
 #   - vendor/gems/
 #   - vendor/ruby/
 
-masthead_title: " "
-logo: "/assets/images/logo.png"
+#masthead_title: " "
+logo: "/assets/images/logo2.png"
 
 defaults:
   # _pages
   - scope:
       path: ""
       type: pages
+    values:
+      layout: single
+      header:
+        overlay_image: /assets/images/main-picture.jpg
+  # _products
+  - scope:
+      path: ""
+      type: products
     values:
       layout: single
       header:
