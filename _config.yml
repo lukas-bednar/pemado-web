@@ -29,7 +29,10 @@ repository: "lukas-bednar/pemado-web"
 # Build settings
 #theme: minima
 theme: minimal-mistakes-jekyll
-minimal_mistakes_skin: default
+# air  contrast default mint  plum
+# aqua dark     dirt    neon  sunrise
+#minimal_mistakes_skin: default
+minimal_mistakes_skin: contrast
 locale: cs-CZ
 plugins:
   - jekyll-feed

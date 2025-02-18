@@ -5,7 +5,16 @@ search: false
 
 @charset "utf-8";
 
+//$text-color: green;
+//$muted-text-color: green;
+$primary-color: green;
+//$border-color: green;
+//$footer-background-color: green;
 $link-color: green;
+//$masthead-link-color: green;
+//$masthead-link-color-hover: green;
+//$navicon-link-color-hover: green;
+
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
