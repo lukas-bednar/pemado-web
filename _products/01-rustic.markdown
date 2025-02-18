@@ -1,7 +1,8 @@
 ---
 title: Rustikální Svíčky
+excerpt: Ručně lité svíčky.
 header:
   teaser: /assets/images/rustic.jpg
 ---
 
-A handmade rustic candle perfect for a cozy atmosphere.
+Tato ručně vyrobená rustikální svíčka je skvělým společníkem pro chvíle, kdy chcete vytvořit hřejivou a útulnou atmosféru. Je ideální pro přidání nádechu pohodlí do vašeho prostoru.

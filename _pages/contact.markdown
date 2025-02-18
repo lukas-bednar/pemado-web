@@ -1,6 +1,6 @@
 ---
 layout: contact
 title: Kontakt
-excerpt: Kde nas najdete
+excerpt: Kde nás najdete
 permalink: /contact/
 ---

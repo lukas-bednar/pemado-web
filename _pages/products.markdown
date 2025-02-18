@@ -1,6 +1,6 @@
 ---
 title: Produkty
-excerpt: Nase kompletni portfolio pro domacnost
+excerpt: Naše kompletní portfolio pro domácnost
 layout: collection
 permalink: /products/
 collection: products

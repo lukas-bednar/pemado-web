@@ -5,6 +5,8 @@ search: false
 
 @charset "utf-8";
 
+$paragraph-indent: true;
+
 //$text-color: green;
 //$muted-text-color: green;
 $primary-color: green;
@@ -15,9 +17,9 @@ $link-color: green;
 //$masthead-link-color-hover: green;
 //$navicon-link-color-hover: green;
 
-//$right-sidebar-width-narrow: 100px !default;
+//$right-sidebar-width-narrow: 100px;
 $right-sidebar-width: 150px;
-//$right-sidebar-width-wide: 300px !default;
+//$right-sidebar-width-wide: 300px;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
@@ -49,4 +51,11 @@ $right-sidebar-width: 150px;
   height: auto;
   min-width: 150px;
   max-width: 200px;
+}
+
+.entries-grid {
+//  display: grid;
+//  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+//  gap: 10px;
 }
