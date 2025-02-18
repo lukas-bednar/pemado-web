@@ -83,6 +83,6 @@ defaults:
       path: ""
       type: products
     values:
-      layout: single
+      layout: product
       header:
         overlay_image: /assets/images/main-picture.jpg

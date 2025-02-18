@@ -22,6 +22,15 @@ $right-sidebar-width: 150px;
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
+// Remove a underline from links in products
 .archive__item a {
-    text-decoration: none ;
+  text-decoration: none ;
+}
+
+.product__image {
+  max-width: 60%; /* Adjust width as needed */
+  height: auto; /* Maintains aspect ratio */
+  display: block; /* Prevents extra spacing */
+  margin: 20px auto; /* Centers the image */
+  border-radius: 10px; /* Optional: Rounded corners */
 }
