@@ -34,3 +34,19 @@ $right-sidebar-width: 150px;
   margin: 20px auto; /* Centers the image */
   border-radius: 10px; /* Optional: Rounded corners */
 }
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+}
+
+.pagination--pager {
+  position: center;
+  font-size: 0.8rem;
+  padding: 6px 12px;
+  height: auto;
+  min-width: 150px;
+  max-width: 200px;
+}
