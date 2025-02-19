@@ -1,4 +1,5 @@
 ---
+layout: product
 title: Venkovní Svíčky
 excerpt: Větruodolné na zahradu i pergolu.
 header:

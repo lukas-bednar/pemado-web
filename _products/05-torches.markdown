@@ -1,4 +1,5 @@
 ---
+layout: product
 title: Pochodně
 excerpt: Ručně vinuté červené parafínové pochodně.
 header:

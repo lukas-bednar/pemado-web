@@ -1,4 +1,5 @@
 ---
+layout: product
 title: Ručně Malované Svíčky
 excerpt: Originální dárek
 header:

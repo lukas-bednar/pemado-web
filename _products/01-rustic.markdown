@@ -1,4 +1,5 @@
 ---
+layout: product
 title: Rustikální Svíčky
 excerpt: Ručně lité svíčky.
 header:

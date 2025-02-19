@@ -1,4 +1,5 @@
 ---
+layout: product
 title: Podpalovače
 excerpt: Ručně vyrobený podpalovač z dřevité vlny.
 header:

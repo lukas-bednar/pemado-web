@@ -88,27 +88,10 @@ footer:
 #      url: "https://github.com/lukas-bednar/pemado-web"
 
 defaults:
-  # _posts
+  # All pages
   - scope:
       path: ""
-      type: posts
     values:
       layout: single
-      header:
-        overlay_image: /assets/images/main-picture.jpg
-  # _pages
-  - scope:
-      path: ""
-      type: pages
-    values:
-      layout: single
-      header:
-        overlay_image: /assets/images/main-picture.jpg
-  # _products
-  - scope:
-      path: ""
-      type: products
-    values:
-      layout: product
       header:
         overlay_image: /assets/images/main-picture.jpg
