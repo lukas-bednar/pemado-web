@@ -1,0 +1,26 @@
+{% comment %}
+* address - a list of address lines
+* map - link to the map
+* phone - a phone string
+* email - an email string
+* facebook - a link to facebook
+{% endcomment %}
+<div class="contact-container">
+  <div class="contact-details">
+{% for addLine in include.address %}
+  {{ addLine }} <br>
+{% endfor %} <br>
+  {% if include.phone %}
+    {{ include.phone | render_phone_link }} <br>
+  {% endif %}
+  {% if include.email %}
+    {{ include.email | render_email_link }} <br>
+  {% endif %}
+  {% if include.facebook %}
+    {{ include.facebook | render_facebook_link: "Facebook" }} <br>
+  {% endif %}
+  </div>
+  <div class="contact-map">
+    <iframe src="{{ include.map }}" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+  </div>
+</div>
