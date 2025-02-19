@@ -72,6 +72,15 @@ collections:
 #masthead_title: " "
 logo: "/assets/images/logo2.png"
 
+footer:
+  links:
+    - label: "Facebook"
+      icon: "fab fa-fw fa-facebook"
+      url: "https://www.facebook.com/people/Pemado-firemn%C3%AD-prodejna/100063592985862/"
+#    - label: "GitHub"
+#      icon: "fab fa-fw fa-github"
+#      url: "https://github.com/lukas-bednar/pemado-web"
+
 defaults:
   # _posts
   - scope:
