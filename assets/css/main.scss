@@ -37,11 +37,12 @@ $right-sidebar-width: 150px;
   border-radius: 10px; /* Optional: Rounded corners */
 }
 
+// Pagination
 .pagination {
   display: flex;
   justify-content: center;
   text-align: center;
-  gap: 10px;
+  gap: 15px;
 }
 
 .pagination--pager {
@@ -52,7 +53,12 @@ $right-sidebar-width: 150px;
   min-width: 150px;
   max-width: 200px;
 }
+.pagination--title {
+  font-size: 0.6rem;
+  margin: 0px 0px 0px 0px
+}
 
+// Grid view
 .entries-grid {
 //  display: grid;
 //  grid-template-columns: repeat(2, 1fr);
