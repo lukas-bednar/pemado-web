@@ -19,7 +19,7 @@
 # in the templates via {{ site.myvariable }}.
 
 title: PEMADO
-email: martina@pemado.com
+email: info@pemado.com
 description: "Beautiful handmade candles for every occasion"
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://pemado.com" # the base hostname & protocol for your site, e.g. http://example.com
@@ -74,6 +74,9 @@ logo: "/assets/images/logo2.png"
 
 footer:
   links:
+    - label: "Telefon"
+      icon: "fa fa-fw fa-phone"
+      url: "tel:+420725866500"
     - label: "E-Mail"
       icon: "fa fa-fw fa-envelope"
       url: "mailto:info@pemado.com"
