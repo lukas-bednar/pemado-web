@@ -29,6 +29,7 @@ $right-sidebar-width: 150px;
   text-decoration: none ;
 }
 
+// FIXME: We might remove it
 .product__image {
   max-width: 60%; /* Adjust width as needed */
   height: auto; /* Maintains aspect ratio */
@@ -115,4 +116,46 @@ $right-sidebar-width: 150px;
   border-radius: 50%;
   max-width: 120px;
   margin-bottom: 10px;
+}
+
+// Products
+.product-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.product-image img {
+  max-width: 400px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.product-details {
+  font-size: 18px;
+}
+
+.purchase-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buy-button, .visit-button {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.buy-button {
+  background: #ff6600;
+  color: white;
+}
+
+.visit-button {
+  background: #555;
+  color: white;
 }
