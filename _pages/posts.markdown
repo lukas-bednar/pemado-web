@@ -1,5 +1,5 @@
 ---
-title: Aktuality
+title: AKTUALITY
 excerpt: Na co se můžete těšit ...
 layout: collection
 permalink: /posts/

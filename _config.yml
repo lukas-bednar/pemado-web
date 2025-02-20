@@ -20,7 +20,8 @@
 
 title: PEMADO
 email: info@pemado.com
-description: "Beautiful handmade candles for every occasion"
+description: "Ručně vyráběné svíčky, podpalovače z dřevité vlny a ruční pochodně."
+tagline: "Ručně vyráběné svíčky, podpalovače z dřevité vlny a ruční pochodně."
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "https://pemado.com" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  lukas-bednar
@@ -42,10 +43,13 @@ theme: minimal-mistakes-jekyll
 minimal_mistakes_skin: contrast
 locale: cs-CZ
 date_format: "%d.%m.%Y"
+search: true
+breadcrumbs: false
 plugins:
   - jekyll-feed
   - jekyll-include-cache
   - jekyll-seo-tag
+  - jekyll-sitemap
 
 # Exclude from processing.
 # The following items will not be processed, by default.
@@ -79,7 +83,6 @@ collections:
 
 #masthead_title: " "
 logo: "/assets/images/logo2.png"
-search: true
 
 defaults:
   # All pages
@@ -88,4 +91,5 @@ defaults:
     values:
       layout: single
       header:
+        overlay_filter: "0.15"
         overlay_image: /assets/images/main-picture.jpg

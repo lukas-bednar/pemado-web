@@ -16,26 +16,48 @@ $link-color: green;
 //$masthead-link-color: green;
 //$masthead-link-color-hover: green;
 //$navicon-link-color-hover: green;
+$global-font-family: Arial, Helvetica, sans-serif;
 
 //$right-sidebar-width-narrow: 100px;
-$right-sidebar-width: 150px;
+//$right-sidebar-width: 250px;
 //$right-sidebar-width-wide: 300px;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
 
-// Remove a underline from links in products
-.archive__item a {
-  text-decoration: none ;
+// HEAD
+.site-title {
+  font-size: $type-size-2;
 }
 
-// FIXME: We might remove it
-.product__image {
-  max-width: 60%; /* Adjust width as needed */
-  height: auto; /* Maintains aspect ratio */
-  display: block; /* Prevents extra spacing */
-  margin: 20px auto; /* Centers the image */
-  border-radius: 10px; /* Optional: Rounded corners */
+// Overlay
+.page__hero--overlay {
+  height: 350px;
+}
+@media (max-width: $small) {
+  .page__hero--overlay {
+    height: 250px;
+  }
+}
+.our-highlights {
+  a {
+    font-size: $type-size-6;
+    margin-top: 10px;
+  }
+}
+
+/*
+.page__lead a {
+  text-decoration: none ;
+}*/
+
+// Page text content
+.page__content {
+  p,
+  li,
+  dl {
+    font-size: $type-size-6;
+  }
 }
 
 // Pagination
@@ -111,19 +133,58 @@ $right-sidebar-width: 150px;
 }
 
 // Products
-.product-container {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-  flex-wrap: wrap;
+
+// remove a underline from links in main products page
+.archive__item a {
+  text-decoration: none ;
+}
+.archive__item-excerpt p {
+  font-size: $type-size-5;
 }
 
-.product-image img {
-  max-width: 350px;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.product-img-left {
+  margin-bottom: 0.5em;
+  float: left;
+  @include breakpoint($small) {
+    margin-right: 1em;
+    max-width: auto;
+  }
+  @include breakpoint($medium) {
+    margin-right: 2em;
+    max-width: 300px;
+  }
 }
-
-.product-details {
-  font-size: 18px;
+.product-fig-left {
+  margin: 0 0.5em;
+  padding-right: 1em;
+  float: left;
+  @include breakpoint($small) {
+    max-width: auto;
+  }
+  @include breakpoint($medium) {
+    max-width: 350px;
+  }
+}
+.product-img-right {
+  margin-bottom: 0.5em;
+  float: right;
+  @include breakpoint($small) {
+    margin-left: 1em;
+    max-width: auto;
+  }
+  @include breakpoint($medium) {
+    margin-left: 2em;
+    max-width: 300px;
+  }
+}
+.about-img-right {
+  margin-bottom: 0.5em;
+  float: right;
+  margin-left: 2em;
+  max-width: 400px;
+}
+@media (max-width: $small) {
+  .about-img-right {
+    display: none;
+  }
 }

@@ -1,6 +1,6 @@
 ---
-layout: single
-title: Kontakt
+layout: splash
+title: KONTAKT
 excerpt: Kde nás najdete
 permalink: /contact/
 ---
@@ -8,11 +8,13 @@ permalink: /contact/
 <div class="contact-representatives-container">
   {%include contact-person.html
           name="Martina Bednář Dolečková"
+          image="/assets/images/logo2.png"
           phone=site.data.contact.phone.martina
           email=site.data.contact.email.martina %}
 
   {%include contact-person.html
           name="Petra Dolečková"
+          image="/assets/images/logo2.png"
           phone=site.data.contact.phone.petra
           email=site.data.contact.email.petra %}
 </div>

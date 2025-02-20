@@ -1,0 +1,23 @@
+rustic:
+  title: RUSTIKÁLNÍ SVÍČKY
+  excerpt: Osvětlete svůj prostor elegancí …
+  image:
+    main: /assets/images/rustic.jpg
+    painted: /assets/images/painted-s.jpg
+    outdoor: /assets/images/outdoor.jpg
+  sections:
+    - name: MALOVANÉ SVÍČKY
+      header: "#dekorativn%C3%AD-sv%C3%AD%C4%8Dky-s-ru%C4%8Dn%C3%AD-malbou"
+    - name: VENKOVNÍ SVÍČKY
+      header: "#venkovn%C3%AD-sv%C3%AD%C4%8Dky"
+firestarter:
+  title: PODPALOVAČE
+  excerpt: Oheň snadno a rychle ...
+  image:
+    main: /assets/images/firestarter.jpg
+    onfire: /assets/images/firestarter-on-fire.jpg
+flambeau:
+  title: POCHODNĚ
+  excerpt: Navodí nezapomenutelnou atmosféru ...
+  image:
+    main: /assets/images/flambeau.jpg
