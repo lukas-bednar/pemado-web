@@ -79,6 +79,7 @@ collections:
 
 #masthead_title: " "
 logo: "/assets/images/logo2.png"
+search: true
 
 footer:
   links:
