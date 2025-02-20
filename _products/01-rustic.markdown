@@ -5,6 +5,8 @@ excerpt: Ručně lité svíčky.
 header:
   teaser: /assets/images/rustic.jpg
   overlay_image: /assets/images/rustic.jpg
+sidebar:
+  - nav: products
 ---
 
 ## {{ page.title }}

@@ -5,6 +5,8 @@ excerpt: Ručně vinuté červené parafínové pochodně.
 header:
   teaser: /assets/images/pochodne.jpg
   overlay_image: /assets/images/pochodne.jpg
+sidebar:
+  - nav: products
 ---
 
 <h2>{{ page.title }}</h2>

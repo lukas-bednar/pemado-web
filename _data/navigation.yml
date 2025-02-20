@@ -10,3 +10,14 @@ main:
   - title: "E-Shop"
     url: "https://eshop.pemado.com"
     target: _blank
+products:
+  - title: Rustikální svíčky
+    url: /products/01-rustic
+  - title: Malované svíčky
+    url: /products/02-painted
+  - title: Venkovní svíčky
+    url: /products/03-outdoor
+  - title: Podpalovače
+    url: /products/04-fire-starter
+  - title: Pochodně
+    url: /products/05-torches

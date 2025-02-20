@@ -5,6 +5,8 @@ excerpt: Podpalovač z dřevité vlny.
 header:
   teaser: /assets/images/podpalovace.jpg
   overlay_image: /assets/images/podpalovace.jpg
+sidebar:
+  - nav: products
 ---
 
 <h2>{{ page.title }}</h2>

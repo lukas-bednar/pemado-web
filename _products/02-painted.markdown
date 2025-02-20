@@ -5,6 +5,8 @@ excerpt: Originální dárek
 header:
   teaser: /assets/images/malovane-s.jpg
   overlay_image: /assets/images/malovane-s.jpg
+sidebar:
+  - nav: products
 ---
 
 <h2>{{ page.title }}</h2>

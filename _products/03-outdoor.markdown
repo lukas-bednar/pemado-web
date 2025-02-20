@@ -5,6 +5,8 @@ excerpt: Větruodolné na zahradu i pergolu.
 header:
   teaser: /assets/images/outdoor.jpg
   overlay_image: /assets/images/outdoor.jpg
+sidebar:
+  - nav: products
 ---
 
 <h2>{{ page.title }}</h2>
