@@ -1,16 +1,32 @@
 ---
-# Feel free to add content and custom Front Matter to this file.
-# To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-#layout: splash
-#layout: archive
-excerpt: Ručně vyráběné svíčky ze srdce
 layout: single
+title: Kontakt
+excerpt: Kde nás najdete
+permalink: /
 ---
 
-PEMADO stojí v čele ruční výroby svíček v České Republice.
-Věříme ve vytváření produktů, které osvětlí váš prostor a pozvednou vaši náladu.
+<div class="contact-representatives-container">
+  {%include contact-person.html
+          name="Martina Bednář Dolečková"
+          phone=site.data.contact.phone.martina
+          email=site.data.contact.email.martina %}
 
-Naši řemeslníci vkládají svou vášeň a oddanost do každé svíčky a zajišťují, že každý kus je jedinečný a precizně vyrobený.
-S důrazem na kvalitu a udržitelnost používáme pouze ty nejlepší materiály.
+  {%include contact-person.html
+          name="Petra Dolečková"
+          phone=site.data.contact.phone.petra
+          email=site.data.contact.email.petra %}
+</div>
 
-Prozkoumejte naši [kolekci](/products) a nechte teplou záři svíček PEMADO proměnit vaše prostředí v útočiště klidu.
+## PROVOZOVNA
+{%include contact-site.html
+          address=site.data.contact.address.factory
+          map=site.data.contact.map.factory %}
+
+## FIREMNÍ PRODEJNA
+{%include contact-site.html
+          address=site.data.contact.address.store
+          map=site.data.contact.map.store
+          phone=site.data.contact.phone.store
+          facebook=site.data.contact.facebook.store %}
+
+---
