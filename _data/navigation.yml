@@ -1,8 +1,8 @@
 main:
-  - title: "O Nás"
-    url: /
-  - title: "Produkty"
-    url: /products/
+#  - title: "O Nás"
+#    url: /
+#  - title: "Produkty"
+#    url: /products/
 #  - title: "Aktuality"
 #    url: /posts/
   - title: "Kontakt"
