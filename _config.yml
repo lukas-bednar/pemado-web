@@ -41,6 +41,7 @@ theme: minimal-mistakes-jekyll
 #minimal_mistakes_skin: default
 minimal_mistakes_skin: contrast
 locale: cs-CZ
+date_format: "%d.%m.%Y"
 plugins:
   - jekyll-feed
   - jekyll-include-cache
