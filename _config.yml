@@ -81,21 +81,6 @@ collections:
 logo: "/assets/images/logo2.png"
 search: true
 
-footer:
-  links:
-    - label: "Telefon"
-      icon: "fa fa-fw fa-phone"
-      url: "tel:+420725866500"
-    - label: "E-Mail"
-      icon: "fa fa-fw fa-envelope"
-      url: "mailto:martina@pemado.com"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook"
-      url: "https://www.facebook.com/people/Pemado-firemn%C3%AD-prodejna/100063592985862/"
-#    - label: "GitHub"
-#      icon: "fab fa-fw fa-github"
-#      url: "https://github.com/lukas-bednar/pemado-web"
-
 defaults:
   # All pages
   - scope:
