@@ -26,6 +26,13 @@ url: "https://pemado.com" # the base hostname & protocol for your site, e.g. htt
 github_username:  lukas-bednar
 repository: "lukas-bednar/pemado-web"
 
+# Analytics
+analytics:
+  provider: google-gtag  # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id: G-GTW9RG9W8K
+    anonymize_ip: false # true, false (default)
+
 # Build settings
 #theme: minima
 theme: minimal-mistakes-jekyll
