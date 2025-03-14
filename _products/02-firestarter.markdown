@@ -19,10 +19,6 @@ p_id: firestarter
 <br class="hide-on-small-devices">
 <br class="hide-on-small-devices">
 
-<a class="certificate-img-right" href="{{ site.data.cert.fsc.url }}" target="_blank">
-<img src="{{ site.data.cert.fsc.img | relative_url }}">
-</a>
-
 Podpalovače z dřevité vlny jsou přírodní a ekologickou volbou pro snadné a efektivní zapálení ohně. Jsou skvělou alternativou k běžným chemickým podpalovačům, a to jak pro vnitřní, tak i venkovní použití.
 {: .text-justify }
 
