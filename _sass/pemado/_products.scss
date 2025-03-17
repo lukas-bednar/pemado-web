@@ -30,6 +30,18 @@
   }
 }
 
+.fsc-certificate-img-right {
+  margin: 0;
+  padding: 0 0 0 0.5em;  // top right bottom left
+  float: right;
+  width: 250px;
+}
+@media(max-width: $small){
+  .fsc-certificate-img-right {
+    max-width: 150px;
+  }
+}
+
 .product-fig-right {
   margin: 0;
   padding: 0 0 0 1em;  // top right bottom left

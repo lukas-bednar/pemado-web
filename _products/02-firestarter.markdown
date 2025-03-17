@@ -19,7 +19,7 @@ p_id: firestarter
 <br class="hide-on-small-devices">
 <br class="hide-on-small-devices">
 
-<a class="certificate-img-right" href="{{ site.data.cert.fsc.url }}" target="_blank">
+<a class="fsc-certificate-img-right" href="{{ site.data.cert.fsc.url }}" target="_blank">
 <img src="{{ site.data.cert.fsc.img | relative_url }}">
 </a>
 
