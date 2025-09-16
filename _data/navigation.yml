@@ -5,8 +5,8 @@ main:
     url: /products/
   - title: "GALERIE"
     url: /gallery/
-#  - title: "AKTUALITY"
-#    url: /posts/
+  - title: "AKTUALITY"
+    url: /posts/
   - title: "KONTAKT"
     url: /contact/
 #  - title: "E-SHOP"
