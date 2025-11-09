@@ -9,6 +9,6 @@ main:
     url: /posts/
   - title: "KONTAKT"
     url: /contact/
-#  - title: "E-SHOP"
-#    url: "https://eshop.pemado.com"
-#    target: _blank
+  - title: "E-SHOP"
+    url: "https://obchod.pemado.com"
+    target: _blank
